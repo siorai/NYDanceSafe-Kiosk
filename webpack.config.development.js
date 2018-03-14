@@ -1,5 +1,6 @@
 var path = require('path');
 var webpack = require('webpack');
+const Dotenv = require('dotenv-webpack');
 
 module.exports = {
   devtool: 'eval',

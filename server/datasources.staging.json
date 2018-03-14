@@ -1,11 +1,14 @@
 {
-  "db": {
-    "port": 5432,
-    "database": "dskiosk",
-    "name": "db",
-    "connector": "postgresql"
+  "db": 
+  {
+    "connector": "postgresql",
+    "host": "process.env.DB_HOST,
+    "user": process.env.DB_USER,
+    "password": process.env.PG_PASS,
+    "database": dskiosk,
+    "port": process.env.DB_PORT
   },
-  "twilio": {
+  {
     "name": "twilio",
     "connector": "loopback-connector-twilio2",
     "accountSid": "AC1a4a8c925ae81a6ece32b5efc4c4dcb5",

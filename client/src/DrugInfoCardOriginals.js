@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 import Header from './Header';
 import Menu from './DrugInfoCardMenu';
 import TextDataButton from './TextDataButton';
-import ShareDataButton from './ShareDataButton';
+// import ShareDataButton from './ShareDataButton';
 import SocialIcons from './SocialIcons';
 import './assets/css/Sidebar.css';
 import './assets/css/Widgets.css';
@@ -111,7 +111,7 @@ class DrugInfoCardOriginal extends Component {
           </ul>
         </div>
         <div className="banner-bg full-height" id="front">
-          <img src={this.state.background.page1}/>
+          <img src={this.state.background.page1} alt="" />
         </div>
 
         <TextModal currentData={this.state} modal={this.closeModal}/>

@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import './assets/css/Widgets.css';
 import sendTextMessage from './actions/textModalAction'
-import textModalContainer from './containers/textModalContainer'
+// import textModalContainer from './containers/textModalContainer'
 
 class TextModal extends Component {
   constructor(props) {
